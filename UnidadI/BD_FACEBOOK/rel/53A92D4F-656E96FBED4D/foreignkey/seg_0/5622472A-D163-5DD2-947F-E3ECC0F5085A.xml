@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5622472A-D163-5DD2-947F-E3ECC0F5085A" containerWithKeyObject="DD356B92-DFF6-3D92-38F1-EDCB3DAA499C" localFKIndex="A072AC0D-ACB6-0482-BBBD-440A6AD90760" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:57 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<referredTableLongName>TBL_COMENTARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD356B92-DFF6-3D92-38F1-EDCB3DAA499C</referredTableID>
+<keyObject>C3AEF05E-BE7D-B0B6-515D-71604A9B1941</keyObject>
+<referredKeyID>C3AEF05E-BE7D-B0B6-515D-71604A9B1941</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_COMENTARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

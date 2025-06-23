@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C20B0E9A-006F-0BF9-34C2-3E31C9F6B94D" name="TBL_PUBLICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:42:25 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="121D6923-95BB-FA44-5B69-B40525DEB5D2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:41 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="B281E8CA-E499-822C-2D60-AA1ADBCE4A5E">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:47 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="614484D9-E914-7158-615F-66DB5F09E26D" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_PUBLICACION" id="DD849136-19E8-9792-8779-79F696B25ED6">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:41 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLICACION" id="A629DF2D-E195-94FE-0F42-00FD361703FE">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:41 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E35AE36-6C73-0AB4-41C7-BAB0530389A1" name="TBL_PUBLICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:41 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="121D6923-95BB-FA44-5B69-B40525DEB5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D88C7305-B6DA-645C-1D78-5A8C6E9B3A3D" name="TBL_PUBLICACIONES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:43:47 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B281E8CA-E499-822C-2D60-AA1ADBCE4A5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C82863B-EA7E-313C-5717-4AC5604707EF" name="TBL_ALUMNOS_X_PERIODO">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="B5B6B0BD-D5EE-DD16-B359-82112D3CD264">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09AE7CDB-0AE7-D4EA-DF6A-31ACDFA99548" referredColumn="7BC6B5BD-DCE3-A1F7-28F7-B943DD119DAD"/>
+</associations>
+</Column>
+<Column name="CUENTA" id="A98C249A-DE10-933A-A1B8-B9B530B47DE2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA6EDC5B-608F-608D-2F1A-27A826EBF340" referredColumn="9811238B-9F1A-71CB-7BCA-CB8BF8031616"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="55909D70-684F-4E80-CC7E-67CA72A0DA12">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMEDIO_PERIODO" id="0B8FF998-B04E-23DF-522E-03586E9D0CE1">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="445E8E59-98B1-38AE-E27D-FBFCB3AAF2B7" name="TBL_ALUMNOS_X_PERIODO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:46:20 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B6B0BD-D5EE-DD16-B359-82112D3CD264"/>
+<colUsage columnID="A98C249A-DE10-933A-A1B8-B9B530B47DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="742F623B-5561-E48D-AFE2-B1C7D4D6D93E" name="TBL_ALUMNOS_X_PERIODO_TBL_PERIODOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B6B0BD-D5EE-DD16-B359-82112D3CD264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A85ABDBC-B9C3-132E-07B8-057770EE0793" name="TBL_ALUMNOS_X_PERIODO_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:33:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98C249A-DE10-933A-A1B8-B9B530B47DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

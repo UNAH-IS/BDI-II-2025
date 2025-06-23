@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93F20F14-F858-0C19-F480-81DE8BC689C3" name="TBL_MENSAJES">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:11 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MENSAJE" id="D0788650-BD2C-8D12-DA44-6FE11921F4B7">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:51 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_EMISOR" id="31567909-783A-F6E2-253A-D65876CE7F82">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:58 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="170089BA-0215-4A90-976A-A7F88497B25A" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="CODIGO_MENSAJE_RESPONDE" id="B707A724-F141-47FA-575D-2BF6098C7D36">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:39:18 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B1CE2BC-2FE8-E18D-A644-F3A2C2326900" referredColumn="D0788650-BD2C-8D12-DA44-6FE11921F4B7"/>
+</associations>
+</Column>
+<Column name="FECHA_MENSAJE" id="EB961BB1-9C16-1009-F895-00F268DF5F00">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:51 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="29519517-FB36-D34C-6702-92663A340AAD">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:51 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_RECEPTOR" id="35B277B7-D454-C61B-7241-E7AFF47040FF">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:39:05 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B762AA7-A782-A41D-1F2B-5096CF2B2D67" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF70F5B2-DF38-08C8-94AB-CEE58585D7BC" name="TBL_MENSAJES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:51 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0788650-BD2C-8D12-DA44-6FE11921F4B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="480055BB-7272-A248-155D-CF0B8E31A0AA" name="TBL_MENSAJES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:38:58 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31567909-783A-F6E2-253A-D65876CE7F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EB77480-F23E-696F-EA15-A152CFB9636C" name="TBL_MENSAJES_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:39:05 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B277B7-D454-C61B-7241-E7AFF47040FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF2CCF9-9F47-A690-E2DE-80A9A106D368" name="TBL_MENSAJES_TBL_MENSAJES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:39:18 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B707A724-F141-47FA-575D-2BF6098C7D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

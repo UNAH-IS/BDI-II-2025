@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3E553CA-68B2-AF10-36E8-F9FE7E7C7B25" name="TBL_ESTADOS_MATRICULA">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-06 00:38:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_MATRICULA" id="9C0B15B3-A75D-420E-A18D-38F15765F53C">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-06 00:38:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="7B0AA349-6D53-45F6-EE0B-150C94C85D0B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-06 00:38:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD24C9E4-F92F-3C20-5B60-CDF1812D029A" name="TBL_ESTADOS_MATRICULA_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-06 00:38:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C0B15B3-A75D-420E-A18D-38F15765F53C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

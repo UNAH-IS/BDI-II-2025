@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CD3A567-3C85-9489-C07E-0900CA2522B1" name="TBL_GRUPOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:17 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRUPO" id="CBDB7539-8E6D-F167-6F56-516D30BE4C32">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GRUPO" id="C5C9D985-8C73-5E26-8B59-BE6CBEE1C475">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="B3703E5C-9C20-8927-4C69-CBD52A23EC4F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGO" id="082A7960-BAE8-EC09-2B02-29C9DAEAACD6">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="B026F5CF-9F22-49EA-E791-1DA24610381F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B41A2EC-06C2-11A5-1AD2-8AFE5CF9A2C0" name="TBL_GRUPOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:34:53 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBDB7539-8E6D-F167-6F56-516D30BE4C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

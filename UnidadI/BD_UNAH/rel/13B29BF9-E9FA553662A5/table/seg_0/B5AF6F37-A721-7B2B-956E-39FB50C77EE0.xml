@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5AF6F37-A721-7B2B-956E-39FB50C77EE0" name="TBL_EMPLEADOS_ADMINISTRATIVOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:39:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO_ADMINISTRATIVO" id="AA2A0301-850D-87DE-B805-04CA87EFB90F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:40:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF99EF7-C926-C2CB-9493-4DAD93F99D5C" referredColumn="92FE8D4D-A19C-1E79-ED4B-D8C0D16115C7"/>
+</associations>
+</Column>
+<Column name="CAMPO_1" id="C8EF394B-2DE7-7934-9FA4-093639B79EE5">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:39:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMPO_2" id="EE3F1CD0-4BAB-3C86-DDB8-30B3B6D9C15B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:39:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7638540D-211E-9D7C-0928-12FD296A1ED4" name="TBL_EMPLEADOS_ADMINISTRATIVOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:40:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA2A0301-850D-87DE-B805-04CA87EFB90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3171ED58-C3CA-CB96-9E37-84AD8243514A" name="TBL_EMPLEADOS_ADMINISTRATIVOS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:40:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA2A0301-850D-87DE-B805-04CA87EFB90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

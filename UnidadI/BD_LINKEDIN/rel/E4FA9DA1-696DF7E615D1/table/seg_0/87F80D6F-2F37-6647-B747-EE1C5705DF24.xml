@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87F80D6F-2F37-6647-B747-EE1C5705DF24" name="TBL_RUBROS_X_EMPRESAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:35:49 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RUBRO" id="AD6AD9BB-3A11-F118-4EB5-8226364F6040">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:36:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33D3227F-D950-49BF-5ED5-7A472435773F" referredColumn="AE15B422-B89F-2F31-A7AE-97EC8E7BF59E"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPRESA" id="D2957F00-DA5E-909D-94F8-F2A18CCCBD17">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:36:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="939D0CC9-6BA5-D60F-C4E1-B7A9C20D5E81" referredColumn="A5DD5991-FBDD-3F66-B571-4D68FAD49212"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7BD5DF7-E6C9-D3DD-F76B-4984BC269986" name="TBL_RUBROS_X_EMPRESAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:36:32 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6AD9BB-3A11-F118-4EB5-8226364F6040"/>
+<colUsage columnID="D2957F00-DA5E-909D-94F8-F2A18CCCBD17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A69E76-1DD4-D8E7-C1D9-E5A633389450" name="TBL_RUBROS_X_EMPRESAS_TBL_RUBROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:36:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6AD9BB-3A11-F118-4EB5-8226364F6040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47B3CDEE-4541-F5D8-7A8F-51793B4207DD" name="TBL_RUBROS_X_EMPRESAS_TBL_EMPRESAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:36:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2957F00-DA5E-909D-94F8-F2A18CCCBD17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

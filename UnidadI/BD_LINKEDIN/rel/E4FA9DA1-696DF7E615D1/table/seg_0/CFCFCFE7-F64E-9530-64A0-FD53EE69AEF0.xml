@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFCFCFE7-F64E-9530-64A0-FD53EE69AEF0" name="TBL_SOLICITUDES_ASOCIACION">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:39:31 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SOLICITUD" id="1D92FE57-7519-7304-4CA9-881FFBD46230">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:26 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="CA703141-898C-12C5-F041-EFF1D6E84CB8">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:31 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="390B2822-18EE-4C37-C2DC-D951BB5AABD6" referredColumn="62855ED6-0DE8-151E-4BD1-DE54FB7D1249"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPRESA" id="6278495F-ED29-DB05-B9CD-969D2B5A88F3">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:37 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6953F7F6-0220-DA32-222A-D09E9EB45FFC" referredColumn="A5DD5991-FBDD-3F66-B571-4D68FAD49212"/>
+</associations>
+</Column>
+<Column name="APROBADO" id="E950D272-E1F2-ED9A-496A-0ACD8C065F1B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:26 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72D5AD91-634E-B0F5-2A35-537A9C4CBE5E" name="TBL_SOLICITUDES_ASOCIACION_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:59 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D92FE57-7519-7304-4CA9-881FFBD46230"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11B6B58A-3F37-6838-1765-C64638F61DB7" name="TBL_SOLICITUDES_ASOCIACION_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:31 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA703141-898C-12C5-F041-EFF1D6E84CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8624C71C-7FC1-E732-A3A3-D9FC9C391660" name="TBL_SOLICITUDES_ASOCIACION_TBL_EMPRESAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:40:37 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6278495F-ED29-DB05-B9CD-969D2B5A88F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

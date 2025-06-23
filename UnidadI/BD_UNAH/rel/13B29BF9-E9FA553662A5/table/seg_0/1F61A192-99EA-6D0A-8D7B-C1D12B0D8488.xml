@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F61A192-99EA-6D0A-8D7B-C1D12B0D8488" name="TBL_MUNICIPIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:20:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MUNICIPIO" id="ABDB0FFF-0DB2-6411-8672-BE4EC8D5288B">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:21:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEPARTAMENTO" id="C2490488-DFD6-5BEF-E864-BAF6498CD592">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:24:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB73003-7CA0-3A7A-42C3-0EF95EF75DE5" referredColumn="8685323B-27BB-9799-8B30-98AC574F72B3"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="38595B6D-BDD7-17D5-E656-FDF6C590520D">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:21:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="F2B81052-FB88-FC87-FD54-5F9D059D0792">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:21:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="C55789F5-5096-C55E-4D9C-D5B1DAA1193D">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:21:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12942385-BAA9-A08B-0AC9-15A547335164" name="TBL_MUNICIPIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:21:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABDB0FFF-0DB2-6411-8672-BE4EC8D5288B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D475936F-4F01-EE42-D68B-A5F7C9DEAAE1" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-29 00:24:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2490488-DFD6-5BEF-E864-BAF6498CD592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37583303-D771-696A-1330-EC6563D2F176" name="TBL_CARRERAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:20:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARRERA" id="97771F80-DC50-C969-EDF4-0BAAB77F5BCC">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARRERA" id="7BDF4668-B06C-6CC0-BA1C-1BF656296F3A">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_ASIGNATURAS" id="F72A0653-F232-AEC8-CA45-BB0C1584ADE6">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_UV" id="9F308E9F-7750-7BF2-435F-9386FB6D89BB">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="B471F6A1-00C7-679A-EDBD-A6D6B4DFF8AD">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALTERNO" id="FE484F3F-C582-5E62-35D8-FAE16F3B165D">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:45:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_JEFE" id="BE236419-10F4-527E-C981-4DB7C341B57A">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:50:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9192B316-BDB5-5BA4-DDBE-ABBFFD3B326D" referredColumn="92FE8D4D-A19C-1E79-ED4B-D8C0D16115C7"/>
+</associations>
+</Column>
+<Column name="CODIGO_COORDINADOR" id="353C7782-2FD0-8209-7441-7FE24BFEEB84">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:52:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13661C5B-5B75-3CE0-165A-0191F86D9F19" referredColumn="92FE8D4D-A19C-1E79-ED4B-D8C0D16115C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5572B311-91A5-5A1E-813E-5170D44F57A3" name="TBL_CARRERAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:34:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97771F80-DC50-C969-EDF4-0BAAB77F5BCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D71D91F6-75F2-EC27-9977-F18F9E37175B" name="CODIGO_ALTERNO_UN">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:45:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE484F3F-C582-5E62-35D8-FAE16F3B165D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3794C1BD-48FC-95D1-955D-F6E6EF689518" name="CODIGO_COORDINADOR_UN">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:20:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="353C7782-2FD0-8209-7441-7FE24BFEEB84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DEACD92-CCFF-17CF-94C9-C8E13E16E55D" name="TBL_CARRERAS_NOMBRE_CARRERA_IDX">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:43:37 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BDF4668-B06C-6CC0-BA1C-1BF656296F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A1EB1E4-8B80-6DC9-7A30-3E500A753C87" name="TBL_CARRERAS_CODIGO_JEFE_IDX">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:16:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE236419-10F4-527E-C981-4DB7C341B57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7596534-FC1D-866A-7D69-801DAEEB0CAA" name="TBL_CARRERAS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:50:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE236419-10F4-527E-C981-4DB7C341B57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65C47A58-DAE7-25EF-6CFB-79415FC2E4B3" name="TBL_CARRERAS_TBL_EMPLEADOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-05-28 00:52:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="353C7782-2FD0-8209-7441-7FE24BFEEB84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

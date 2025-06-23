@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D6F9325-BB9F-D597-87E6-A0C4B5961DE1" name="TBL_HABILIDADES_X_OFERTAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:46:47 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_OFERTA" id="CBB85941-A09F-54F3-64B5-A04A9AAFF040">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:46:59 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC340464-D18A-F7CA-FB6C-DDAF245909CA" referredColumn="3B5CD55E-2805-5D4F-DC51-CF2444355F11"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="7F0A493C-2E2C-A8E6-720A-0E1418C204A9">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:47:25 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C76E76F4-9288-F946-1C9D-BCE3501A63FE" referredColumn="0FD29E09-A1F6-4E84-8D39-AD8F195DD980"/>
+</associations>
+</Column>
+<Column name="OBLIGATORIA" id="C94A1E03-5ECC-DF18-5AFE-A4CF6281FF62">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:48:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E58E5AC-6133-EA0B-F098-E007C5DF2E2E" name="TBL_HABILIDADES_X_OFERTAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:48:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBB85941-A09F-54F3-64B5-A04A9AAFF040"/>
+<colUsage columnID="7F0A493C-2E2C-A8E6-720A-0E1418C204A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70BDCAA-5161-6A4C-1326-1527DEBD7571" name="TBL_HABILIDADES_X_OFERTAS_TBL_OFERTAS_TRABAJO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:46:59 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBB85941-A09F-54F3-64B5-A04A9AAFF040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3538FF60-5624-E206-B3D2-02BFB56B1D50" name="TBL_HABILIDADES_X_OFERTAS_TBL_HABILIDADES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:47:25 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F0A493C-2E2C-A8E6-720A-0E1418C204A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

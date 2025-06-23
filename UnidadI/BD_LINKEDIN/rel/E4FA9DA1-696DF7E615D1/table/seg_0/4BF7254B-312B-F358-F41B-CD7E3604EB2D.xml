@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BF7254B-312B-F358-F41B-CD7E3604EB2D" name="TBL_CERTIFICADOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:22:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CERTIFICADO" id="8D26B8AD-DBE5-815E-95E9-56A213910EFC">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:25:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9E30A79-C0BB-6ED0-2D5A-3F266FA53FC5" referredColumn="CAB75F88-8CEC-BFAD-146A-86DE170629BD"/>
+</associations>
+</Column>
+<Column name="PUNTUACION" id="41AE7A34-80FA-3B23-A9EB-E34D457AD89E">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:30:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9024076-1F82-DA59-D885-6D36B279C834" name="TBL_CERTIFICADOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:26:26 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D26B8AD-DBE5-815E-95E9-56A213910EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F989F4C6-EA24-48A5-218B-CB9D799BBC10" name="TBL_CERTIFICADOS_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:25:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D26B8AD-DBE5-815E-95E9-56A213910EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B89DEFBF-5309-876C-581D-227CCEC8E573" name="TBL_VALIDACIONES_HABILIDADES">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:13:23 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="6B458C7B-D3A8-4779-FAAA-E15D041C64B2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:15:27 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D37C73D8-263C-B5A8-B40B-537A9D15BC35" referredColumn="5E1ACC0C-61EE-6F6E-05E2-9602115BF0FE"/>
+</associations>
+</Column>
+<Column name="CODIGO_HABILIDAD" id="28DDD770-4C0E-54B4-071A-DE8B21321C02">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:15:27 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D37C73D8-263C-B5A8-B40B-537A9D15BC35" referredColumn="A5A86FB6-48E0-8EAB-7B8A-B3D522FA6727"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_VALIDA" id="A1E4EAB1-F0E6-9E2E-C6DD-47083DFC383F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:14:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40CA8630-994F-F61E-EF01-03AFA99EDAF3" referredColumn="62855ED6-0DE8-151E-4BD1-DE54FB7D1249"/>
+</associations>
+</Column>
+<Column name="FECHA_VALIDACION" id="9142545F-D095-4E75-EB2A-6FC199979BCA">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:14:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="639EE231-9E7B-E503-0886-B6A39EB2BEDB" name="TBL_VALIDACIONES_HABILIDADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:16:59 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B458C7B-D3A8-4779-FAAA-E15D041C64B2"/>
+<colUsage columnID="28DDD770-4C0E-54B4-071A-DE8B21321C02"/>
+<colUsage columnID="A1E4EAB1-F0E6-9E2E-C6DD-47083DFC383F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25334957-3DC7-273A-AE68-DC7EE7A5AC83" name="TBL_VALIDACIONES_HABILIDADES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:14:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1E4EAB1-F0E6-9E2E-C6DD-47083DFC383F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A041D6A0-1B5F-9AD8-C65B-4F5A6205DCC6" name="TBL_VALIDACIONES_HABILIDADES_TBL_HABILIDADES_X_USUARIO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:15:27 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B458C7B-D3A8-4779-FAAA-E15D041C64B2"/>
+<colUsage columnID="28DDD770-4C0E-54B4-071A-DE8B21321C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71DCF573-5304-EA0A-9981-A5B43D3C88AB" name="TBL_EMPRESAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:33:24 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPRESA" id="A5DD5991-FBDD-3F66-B571-4D68FAD49212">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:34:11 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8165227D-A5F1-47B6-8C0F-314D010B9D10" referredColumn="C570740B-FFD8-2BEC-E453-8656E9FED5A3"/>
+</associations>
+</Column>
+<Column name="FECHA_FUNDACION" id="9203AA91-7BCF-3E59-CCAE-860413F4C8D1">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:37:41 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MISION" id="4384EB2F-482C-DD17-079F-45550F72A1BE">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:37:41 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISION" id="2F0E8DA2-2158-3B07-4731-8C407018EB49">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:37:41 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGOTIPO" id="D2F5B792-A2F7-D0B0-2DDE-2D93FB0A4AA5">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:37:41 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_ADMIINISTRADOR" id="6CA87A0A-0ABF-6D33-AD7E-2494ECA8B721">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:35:38 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5726B37C-C674-5075-BB54-BB95DB6E39FA" referredColumn="62855ED6-0DE8-151E-4BD1-DE54FB7D1249"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_EMPLEADOS" id="299AC2E8-F3D5-AC4F-B41D-02745FC2FE02">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:36:07 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CB060D7-CE24-56D8-9730-0EEBBF2DBBF7" name="TBL_EMPRESAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:34:24 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5DD5991-FBDD-3F66-B571-4D68FAD49212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC3A39F4-49CE-17CB-2BA3-4DB3D86BB4B9" name="TBL_EMPRESAS_TBL_INSTITUCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:34:11 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5DD5991-FBDD-3F66-B571-4D68FAD49212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78A71996-6D22-385A-6372-EC6BFEB05980" name="TBL_EMPRESAS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-19 00:35:38 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA87A0A-0ABF-6D33-AD7E-2494ECA8B721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD92D824-8053-CAFC-B1A7-0653A2298EC7" name="TBL_RECONOCIMIENTOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:22:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RECONOCIMIENTO" id="58F05DA0-D44A-68F0-B836-A7C28F737EED">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:25:25 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2CC5A27-6865-C416-F244-A8BC5236658E" referredColumn="CAB75F88-8CEC-BFAD-146A-86DE170629BD"/>
+</associations>
+</Column>
+<Column name="FOTOGRAFIA" id="7ECDAD9F-FB3A-39C5-E627-4A8305780B75">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:30:08 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87738FF9-8F76-5982-9CCA-1165890C72D9" name="TBL_RECONOCIMIENTOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:26:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58F05DA0-D44A-68F0-B836-A7C28F737EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9E00FBE-7D52-4692-1DE9-045E48E33E49" name="TBL_RECONOCIMIENTOS_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:25:25 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58F05DA0-D44A-68F0-B836-A7C28F737EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F2FFFB6-E30E-AAB6-8DCF-7651BADEEB2A" name="TBL_CARGOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:22:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARGO" id="8272FB99-2AD5-36DC-7CDF-387FB52BD512">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARGO" id="00A1970C-09A5-AAB4-365F-8A8D0AD3AA38">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="853A2EAA-7698-067F-D70C-D31D571C3FB8">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_MINIMO" id="48C33A5E-3C3A-B779-9C61-263089406F4E">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_MAXIMO" id="55F380DC-6CCC-8DFC-F32E-5BD9A08E93BB">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93CEDE71-E0CA-C54D-39E8-0E16241BAF84" name="TBL_CARGOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:23:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8272FB99-2AD5-36DC-7CDF-387FB52BD512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

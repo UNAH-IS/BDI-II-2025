@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78607AEC-A34B-80FF-54E8-47A2B53E0306" name="TBL_MAESTROS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:32:24 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MAESTRO" id="B020AC10-0650-FB7D-D6F6-A1A8B965738E">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:34:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D70F735D-AA62-7AC9-A8AF-479B9C4686B0" referredColumn="92FE8D4D-A19C-1E79-ED4B-D8C0D16115C7"/>
+</associations>
+</Column>
+<Column name="CODIGO_TITULARIDAD" id="A2CBCC96-F9CD-FAD4-D4A2-741375BDE038">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:33:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB513029-70E7-9E25-2873-FFBD0264F053" referredColumn="7C5CF04C-C1A2-D3F9-01D0-5410E4E081A6"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="07D6740C-C918-810E-4F4C-4B6FDD4C2519">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:34:08 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ECE2B23-8BB5-35E9-85EF-0F8FAABC6C10" referredColumn="97771F80-DC50-C969-EDF4-0BAAB77F5BCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA29CC8E-FC80-C908-7A52-E5CFFB2E5A10" name="TBL_MAESTROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:38:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B020AC10-0650-FB7D-D6F6-A1A8B965738E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B78B5021-BB21-96D1-0174-3E0B4B1D7190" name="TBL_MAESTROS_TBL_TITULARIDADES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:33:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CBCC96-F9CD-FAD4-D4A2-741375BDE038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="734EF969-4267-BEFC-1228-4EDB3F193E34" name="TBL_MAESTROS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:34:08 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07D6740C-C918-810E-4F4C-4B6FDD4C2519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D675D9-E471-C067-D403-B483AA7C8611" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:34:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B020AC10-0650-FB7D-D6F6-A1A8B965738E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

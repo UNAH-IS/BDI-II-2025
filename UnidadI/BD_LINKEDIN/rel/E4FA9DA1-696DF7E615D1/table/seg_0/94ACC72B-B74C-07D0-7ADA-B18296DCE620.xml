@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94ACC72B-B74C-07D0-7ADA-B18296DCE620" name="TBL_LOGROS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:20:49 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LOGRO" id="CAB75F88-8CEC-BFAD-146A-86DE170629BD">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:21:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="A08DF724-A3FE-D2F1-04A2-DD661E27DAC9">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:22:13 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5ACF40D-22DC-B389-D67D-9D7F9AD56509" referredColumn="62855ED6-0DE8-151E-4BD1-DE54FB7D1249"/>
+</associations>
+</Column>
+<Column name="CODIGO_INSTITUCION" id="D6299074-358D-6C44-2DE0-C50EC292FC8B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:28:45 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8E34C93-3D35-74BA-5022-DDBBA63F3468" referredColumn="C570740B-FFD8-2BEC-E453-8656E9FED5A3"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LOGRO" id="7971120B-0301-BEA7-9E0D-E211A02D9EE1">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:21:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LOGRO" id="D74AB0E9-929A-AC49-7372-07B0A57B15E9">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:21:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="AF743C92-4152-748E-45B7-859D6ED6404F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:21:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="750FA72E-BEB4-B11E-A981-012E8B520AE6" name="TBL_LOGROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:21:46 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAB75F88-8CEC-BFAD-146A-86DE170629BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A89406F-2175-DD1A-76AA-C6253865D624" name="TBL_LOGROS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:22:13 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A08DF724-A3FE-D2F1-04A2-DD661E27DAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C18B1727-0D23-4D70-158E-790B10B7E284" name="TBL_LOGROS_TBL_INSTITUCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:28:45 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6299074-358D-6C44-2DE0-C50EC292FC8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

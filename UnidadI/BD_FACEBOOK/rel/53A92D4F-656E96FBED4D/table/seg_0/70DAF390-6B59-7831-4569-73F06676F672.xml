@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70DAF390-6B59-7831-4569-73F06676F672" name="TBL_ESTADOS_SOLICITUDES">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:39:42 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO" id="D6E9FCC9-CD57-4863-B172-9DE145C4B422">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:40:04 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="78BDD7F6-C370-3314-A1B6-17E901317435">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:40:04 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6061357-E2B5-04A8-9BD6-BBF769C097B9" name="TBL_ESTADOS_SOLICITUDES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:40:04 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E9FCC9-CD57-4863-B172-9DE145C4B422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

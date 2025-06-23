@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA5BC937-9DE2-AF45-F942-EB82A2EA20E6" name="TBL_TRABAJOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:22:57 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRABAJO" id="EF1187AA-948C-FB74-DDFF-66FCE4205EA2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="292AD806-9DBA-D51F-0B52-33002EB14294">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:26:02 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0873A13-94B6-DB76-0ED6-B11F88BE78B7" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="TITULO_TRABAJO" id="E941C726-0D65-9420-E9FD-B1E1911B919A">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="3C85076F-CBA7-300B-ACA1-161462048623">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="73C47113-C90F-5BD4-8F1A-04E5AFED7A7B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="89AF0738-993F-0122-CF2D-01EC609A62B1">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D238B659-0D00-04AA-CE0C-740EC85CFB93" name="TBL_TRABAJOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:23:50 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF1187AA-948C-FB74-DDFF-66FCE4205EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6014C5E-9146-AC3A-5FB0-9A09957097BF" name="TBL_TRABAJOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:26:02 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="292AD806-9DBA-D51F-0B52-33002EB14294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

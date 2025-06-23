@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9075B71-2D47-719C-AB97-D8F89AAB3860" containerWithKeyObject="38B5BA08-3520-8FD7-2EA4-4063DD89966A" localFKIndex="3A1E3900-7880-8BDE-71B7-F31E0C6645FB" name="TBL_PAGOS_TBL_ESTADOS_PAGOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:47:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_PAGOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73A3C9D0-7B55-0DF0-F532-D523BC454400</referredTableID>
+<keyObject>D6B1EBD8-55E4-2D0F-3D44-89D2F01AD2FE</keyObject>
+<referredKeyID>D6B1EBD8-55E4-2D0F-3D44-89D2F01AD2FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO_PAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

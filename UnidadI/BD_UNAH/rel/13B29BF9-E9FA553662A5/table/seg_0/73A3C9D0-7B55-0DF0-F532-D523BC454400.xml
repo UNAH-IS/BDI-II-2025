@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73A3C9D0-7B55-0DF0-F532-D523BC454400" name="TBL_ESTADOS_PAGOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:46:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_PAGO" id="9B335444-77E7-955B-D13F-A5082EF84ED4">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:46:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_PAGO" id="3634181B-8DD2-7C7C-FD58-ECB51969F428">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:46:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6B1EBD8-55E4-2D0F-3D44-89D2F01AD2FE" name="TBL_ESTADOS_PAGOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:46:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B335444-77E7-955B-D13F-A5082EF84ED4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

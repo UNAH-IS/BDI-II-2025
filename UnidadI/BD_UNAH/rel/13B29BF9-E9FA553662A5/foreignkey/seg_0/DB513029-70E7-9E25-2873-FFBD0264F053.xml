@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB513029-70E7-9E25-2873-FFBD0264F053" containerWithKeyObject="78607AEC-A34B-80FF-54E8-47A2B53E0306" localFKIndex="B78B5021-BB21-96D1-0174-3E0B4B1D7190" name="TBL_MAESTROS_TBL_TITULARIDADES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-04 00:33:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_TITULARIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D84F27CC-EBC7-693C-9230-A099DF2C1EF7</referredTableID>
+<keyObject>45E32ED7-BC69-551D-70C8-D676C7A3F077</keyObject>
+<referredKeyID>45E32ED7-BC69-551D-70C8-D676C7A3F077</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TITULARIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D994243E-4408-77E6-5244-0367FF33CDA1" name="TBL_SOLICITUDES_AMISTAD">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:37:57 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="41164492-8F45-5AF2-025F-2DBD2E8C0F10">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:38:32 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F42E6D9-4C39-6844-033B-70C4F2F5CF43" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="CODIGO_AMIGO" id="0EBD2DCF-6AF9-B832-9087-3B82FF63D454">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:38:39 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668470C6-A8F0-0028-5C3F-B6FC26ED5A3C" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLICITUD" id="B13BD6CE-A47E-00AB-1E98-CDEC0F16BD40">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:38:27 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO" id="4834B890-9D68-92C6-C9B7-91895B0C89D3">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:40:09 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E4BA33C-E90F-6AE2-9787-338F7F6744F5" referredColumn="D6E9FCC9-CD57-4863-B172-9DE145C4B422"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04CAA4A6-89A7-5EAD-DAB4-E6458010AEBC" name="TBL_SOLICITUDES_AMISTAD_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:39:32 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41164492-8F45-5AF2-025F-2DBD2E8C0F10"/>
+<colUsage columnID="0EBD2DCF-6AF9-B832-9087-3B82FF63D454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90F7B39E-4F7E-C815-0E65-E87F4FA9886E" name="TBL_SOLICITUDES_AMISTAD_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:38:32 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41164492-8F45-5AF2-025F-2DBD2E8C0F10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86BB1C93-301A-03FD-D5DD-1F64DEF8D45E" name="TBL_SOLICITUDES_AMISTAD_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:38:39 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EBD2DCF-6AF9-B832-9087-3B82FF63D454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0130A1AD-C99A-00CC-2AC8-F27E6D2FE14D" name="TBL_SOLICITUDES_AMISTAD_TBL_ESTADOS_SOLICITUDES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:40:09 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4834B890-9D68-92C6-C9B7-91895B0C89D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

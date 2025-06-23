@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EC045E4-CCC9-2DC7-9CF9-6DD7B8DEFB8D" name="TBL_FOTOGRAFIAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:18:05 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTOGRAFIA" id="31ABB0C4-A3CC-C09E-5D28-4F4B1392D95F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="2258E198-FD1B-DB23-BC7D-CC1A00EDD697">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:25:44 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A39EEF1-D978-5CBA-D128-A827F0165A41" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="TITULO" id="79250B11-F50B-45BB-B9C7-97A56A8B386D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2F5A80DB-AF19-2B95-EC58-EF59BC15F377">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SUBIDA" id="41FD1579-4CAD-BE04-B985-252EC5B9B8F7">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_FOTOGRAFIA" id="3494AB6C-DB10-4FC1-CBB5-CFB23C7FC086">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALBUM" id="FC840D63-029E-AA76-73F0-6CE63FDE062A">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:15 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26B83899-2E8E-E810-9ABE-21AACC5F214B" referredColumn="3B1B81B7-9E46-EFEF-31BB-435AFC0D4186"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6E110B3-E303-12BD-4040-F48285CAFB7D" name="TBL_FOTOGRAFIAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:10 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31ABB0C4-A3CC-C09E-5D28-4F4B1392D95F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC219714-AF6F-BEDC-5E36-72F0495DF149" name="TBL_FOTOGRAFIAS_TBL_ALBUMES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:19:15 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC840D63-029E-AA76-73F0-6CE63FDE062A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95BB1B7A-AB43-0DB5-39B0-DE73303963FC" name="TBL_FOTOGRAFIAS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:25:44 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2258E198-FD1B-DB23-BC7D-CC1A00EDD697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B953B9-E35C-7091-EE74-67BED9F83833" name="TBL_HISTORIAL">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORIAL" id="12F7B5A5-208F-1D49-D058-CA55FBD513CE">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:16:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="6DFA2121-3109-40EF-682F-BD6B884BB51B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:16:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALIFICACION" id="15CF4519-D680-2B9A-3E68-7CB1F624D4E9">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:16:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MATRICULA" id="6B43502E-F606-CB01-A4AD-2B67B47382A0">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CBE61DC-E84B-2CA4-956B-AC95458DE2C3" referredColumn="B0ECA1B2-1B58-6236-A164-EEFB6C0DE53E"/>
+</associations>
+</Column>
+<Column name="CODIGO_OBSERVACION_ASIGNATURA" id="9E0675D7-DB69-B451-0E97-AD55B41ECB17">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:27:36 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88ECE841-5760-DAA3-A41B-2810C96488F9" referredColumn="A9BE9B1D-D0D2-EC12-3045-37287066FCB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C45B3D9F-3BCC-ECD2-A811-F0A0C0C2F3EF" name="TBL_HISTORIAL_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:16:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12F7B5A5-208F-1D49-D058-CA55FBD513CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0766A49-E9B7-8363-FD18-F97CC5DB45CE" name="TBL_HISTORIAL_TBL_MATRICULA_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B43502E-F606-CB01-A4AD-2B67B47382A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4517BC5B-B5C7-EED6-FADE-BE554BD03BF9" name="TBL_HISTORIAL_TBL_OBSERVACION_ASIGNATURA_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:27:36 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0675D7-DB69-B451-0E97-AD55B41ECB17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

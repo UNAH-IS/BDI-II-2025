@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="890AB0CA-499A-6B18-AE56-A3873AA12E33" name="TBL_PROFESIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:23 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PROFESION" id="0A8B9622-CA92-1A78-21EB-D3E1319E059D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROFESION" id="77BF55F4-7BFE-79B0-457E-69BDFC7E59F8">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D02C8D69-AF2D-F0BE-9C70-CF706D0C361D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREFIJO" id="BA0A3767-7A97-CFEA-9B4D-FC056961459B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A06E53F8-B9A8-DF93-0597-58DDF614467E" name="TBL_PROFESIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-18 00:18:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A8B9622-CA92-1A78-21EB-D3E1319E059D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

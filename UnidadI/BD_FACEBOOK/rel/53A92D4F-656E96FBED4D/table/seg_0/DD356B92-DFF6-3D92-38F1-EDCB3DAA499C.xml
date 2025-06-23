@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD356B92-DFF6-3D92-38F1-EDCB3DAA499C" name="TBL_COMENTARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:22:28 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="6BFD3E3A-7EC3-76EB-FA8D-B31EA4076CE4">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:01 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="567F1A44-CD5A-0974-8FCE-31D203AB10B0">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:11 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="297E28F9-A168-C420-DE31-1A53D7BB1F7E" referredColumn="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="E56E9D9D-12CF-0CA5-C18F-97623C85581D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:20 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36255E54-1FF2-3897-A46B-ABEDE246F9FB" referredColumn="121D6923-95BB-FA44-5B69-B40525DEB5D2"/>
+</associations>
+</Column>
+<Column name="TEXTO_COMENTARIO" id="249F3C2E-0E26-7F44-3FE3-A4D095C76A20">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:01 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMENTARIO" id="829E6E4C-37C4-ADC2-3197-F99816222E62">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:01 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_COMENTARIO_RESPONDE" id="75AC1755-4E2C-FA45-22D1-EC30155D26A2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:57 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5622472A-D163-5DD2-947F-E3ECC0F5085A" referredColumn="6BFD3E3A-7EC3-76EB-FA8D-B31EA4076CE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3AEF05E-BE7D-B0B6-515D-71604A9B1941" name="TBL_COMENTARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:01 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BFD3E3A-7EC3-76EB-FA8D-B31EA4076CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0F327FE-E9D4-45CD-4D58-299FBF171D2A" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:11 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="567F1A44-CD5A-0974-8FCE-31D203AB10B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9959CB4B-DF57-8982-6107-0E383F9A0054" name="TBL_COMENTARIOS_TBL_PUBLICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:20 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E56E9D9D-12CF-0CA5-C18F-97623C85581D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A072AC0D-ACB6-0482-BBBD-440A6AD90760" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-17 00:23:57 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75AC1755-4E2C-FA45-22D1-EC30155D26A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

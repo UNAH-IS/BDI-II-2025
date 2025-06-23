@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05FCB4DF-59BC-7219-CB1E-C0F757B4C7CA" name="TBL_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:17:59 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="AD3AFCFE-7191-11C2-FDE7-22D9394C94C2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:22:09 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="809C537B-076E-133B-7C8E-C100D23E1F2D" referredColumn="C3100DDB-8567-285A-DA36-CB6441FE354F"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="94FD1F32-ED5D-6F12-6AF5-BDCCDCB15C73">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:22:17 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A1BFB58-0558-8995-061E-DAF716D130C7" referredColumn="C3100DDB-8567-285A-DA36-CB6441FE354F"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="556C44E6-3B9F-967E-EB7E-ED5355CF4BBB">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="D94C528D-22FE-C98F-423A-E0B515DC6B3F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="B9C55F6F-E354-17B4-B06B-F4A62EB43E30">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="58CE2D40-185A-998E-1A7D-3131EE15DA1B">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="9D43E47C-BFB1-0855-2249-01157B0F62FB">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="BDD8EF03-5219-57E0-3F51-045339ED700F">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="5E5B9577-26FD-7079-7C21-788A38160B1D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA" id="BD098609-ECDF-A83E-036C-21B6D3E22676">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB280827-04F3-FA6A-F287-AA1D149108AD" name="TBL_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:20:08 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE34D8B8-AFE9-A3FD-FA28-5DE369F81915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EAF32AA-C03B-EDD3-F278-CCC74920772B" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:22:09 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3AFCFE-7191-11C2-FDE7-22D9394C94C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A04BD3-D14C-D520-5268-0F5B2F46654B" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-13 00:22:17 UTC</createdTime>
+<ownerDesignName>BD_FACEBOOK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FD1F32-ED5D-6F12-6AF5-BDCCDCB15C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

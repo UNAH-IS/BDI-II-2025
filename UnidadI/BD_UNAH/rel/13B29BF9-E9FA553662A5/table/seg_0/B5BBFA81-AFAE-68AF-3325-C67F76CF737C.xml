@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5BBFA81-AFAE-68AF-3325-C67F76CF737C" name="TBL_BANCOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:47:01 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_BANCO" id="ECB7D81F-4535-AA21-A55E-E0B8AF26209D">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:47:27 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_BANCO" id="F19023DE-5D18-1CE0-D901-5E2AC20CE01A">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:47:27 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32ED5199-AE65-9BBB-946C-63DF2BE61973" name="TBL_BANCOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-10 00:47:27 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECB7D81F-4535-AA21-A55E-E0B8AF26209D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

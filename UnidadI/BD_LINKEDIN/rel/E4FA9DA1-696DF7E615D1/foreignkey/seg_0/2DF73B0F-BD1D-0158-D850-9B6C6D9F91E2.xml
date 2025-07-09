@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DF73B0F-BD1D-0158-D850-9B6C6D9F91E2" containerWithKeyObject="C16A2B85-AE41-470C-8069-805CCE901278" localFKIndex="B6223CE5-5253-8067-651A-A3284C0526B5" name="TBL_CONEXIONES_TBL_ESTADOS_CONEXIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-06-24 00:25:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_CONEXIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA25D9EF-F2B3-3067-A8B2-4746137AE9AD</referredTableID>
+<keyObject>2BEB5BD3-38E7-53D3-DD50-61E4B0A35983</keyObject>
+<referredKeyID>2BEB5BD3-38E7-53D3-DD50-61E4B0A35983</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO_CONEXION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
